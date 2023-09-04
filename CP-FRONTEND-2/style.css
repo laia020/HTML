@@ -1,0 +1,90 @@
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+
+.top {
+    margin-top: 50px;
+    margin-left: 30px;
+}
+
+
+
+.typeWine{
+    display: inline-block;
+    margin-left: 10px;
+}
+
+.container-wine {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    column-gap: 20px;
+}
+
+.wine-big img {
+    width: 200px;
+    height: auto;
+}
+
+.small-wines {
+    display: flex;
+    flex-direction: column;
+}
+
+.wine img {
+    width: 100px;
+    height: auto;
+}
+
+.all{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.icons {
+    margin-left: 40px;
+}
+
+.button-price {
+    display: flex;
+    flex-direction:column;
+    align-items: end;
+    justify-content: end;
+    margin-right: 100px;
+    margin-bottom: 50px;
+}
+
+.price {
+    font-size: 40px;
+}
+
+.descricao {
+    margin-top: 100px;
+    margin-left: 30px;
+}
+
+.datasheet {
+    margin-top: 20px;
+    margin-left: 30px;
+}
+
+.buy {
+    border: 2px solid #000000;
+    border-radius: 70px;
+    padding: 5px 30px;
+    background-color: #ffffff;
+    font-size: 18px;
+    font-weight: 900;
+    letter-spacing: 1px;
+    transition: .5s;
+}
+
+
+.buy:hover {
+    background-color: #000000;
+    color: #ffffff;
+}
