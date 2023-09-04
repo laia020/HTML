@@ -1,0 +1,34 @@
+:root {
+    --color-blue: #336699;
+    --font-body: 'Lato', sans-serif;
+}
+
+body {
+    font-family: var(--font-body) 
+}
+
+.icon-position {
+    position: relative;
+    top: 1px;
+}
+
+.text-blue {
+    color: var(--color-blue);
+}
+
+.logo-menu {
+    font-size: 27px;
+    color: var(--color-blue);
+}
+
+.navbar-toggler {
+    box-shadow: none !important;
+}
+
+.nav-link {
+    font-weight: 600;
+}
+
+.nav-link:hover, .logo-menu:hover {
+    color: var(--color-blue);
+}
